@@ -2,6 +2,8 @@ import basket_icon from './basket_icon.png'
 import logo from './logo.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
+import background_pic from './background_pic.jpg'
+import food_bg from './food_bg.jpg'
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
@@ -59,6 +61,13 @@ import profile_icon from './profile_icon.png'
 import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
+import salad from './salad.jpg'
+import rolls from './rolls.jpg'
+import deserts from './deserts.jpg'
+import sandwitch from './sandwitch.jpg'
+import cake from './cake.jpg'
+import pasta from './pasta.jpg'
+import noodles from './noodles.jpg'
 
 export const assets = {
     logo,
@@ -79,41 +88,40 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    background_pic,
+    food_bg,salad
 }
 
 export const menu_list = [
     {
         menu_name: "Salad",
-        menu_image: menu_1
+        menu_image: salad
     },
     {
         menu_name: "Rolls",
-        menu_image: menu_2
+        menu_image: rolls
     },
     {
         menu_name: "Deserts",
-        menu_image: menu_3
+        menu_image: deserts
     },
     {
         menu_name: "Sandwich",
-        menu_image: menu_4
+        menu_image: sandwitch
     },
     {
         menu_name: "Cake",
-        menu_image: menu_5
+        menu_image: cake
     },
-    {
-        menu_name: "Pure Veg",
-        menu_image: menu_6
-    },
+
     {
         menu_name: "Pasta",
-        menu_image: menu_7
+        menu_image: pasta
     },
     {
         menu_name: "Noodles",
-        menu_image: menu_8
+        menu_image: noodles
     }]
 
 export const food_list = [

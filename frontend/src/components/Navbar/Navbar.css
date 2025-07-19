@@ -3,12 +3,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* background-color:pink; */
 }
 
 .navbar .logo {
     width: 150px;
 
 }
+
+.logo-text {
+  font-size: 2.5rem;
+  font-weight: 900; /* Extra bold */
+  text-decoration: none;
+  color: #FF5722; /* Tomato red */
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: -1px; /* Slightly tighter */
+}
+
+.logo-text {
+  color: #212121;      /* Jet Black */
+  font-weight: 900;
+}
+.logo-text .dot {
+  color: #FF5722;      /* Deep Orange */
+}
+
+
+
 
 .navbar-menu {
     display: flex;
@@ -29,7 +50,7 @@
     background: transparent;
     font-size: 16px;
     color: #49557e;
-    border: 1px solid tomato;
+    border: 1px solid rgb(168, 167, 167);
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
@@ -37,7 +58,7 @@
 }
 
 .navbar button:hover {
-    background: tomato;
+    background: #E53935;
     color: white;
 }
 
